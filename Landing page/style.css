@@ -1,0 +1,129 @@
+/* CSS Variables */
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light:#fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--primary);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 50px;
+}
+
+header {
+    bottom: 200px;
+}
+
+button {
+    color: black;
+    background-color: yellow;
+    box-shadow: none;
+    height: 30px;
+    border: #ddd;
+    border-radius: 3px;
+}
+
+h1 {
+    position: relative;
+    margin: 50px;
+    margin-top: 0px;
+    padding: 40px;
+    text-align: center;
+}
+
+section {
+    margin: 50px;
+    padding: 50px;
+}
+
+section h2{
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+    margin-top: -80px;
+}
+
+.pon p {
+    position: relative;
+    left: -100px;
+    bottom: 40px;
+    margin-top: -10px;
+}
+
+section p {
+    
+    padding: 5px;
+    margin: 30px;
+    text-align: center;
+}
+
+i {
+    position: relative;
+    margin: 30px;
+    padding: 10px;
+    left: 50px;
+    bottom: 30px;
+}
+
+
+.boxes {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)
+    );
+}
+
+.boxes h4 {
+    background: darkgrey;
+    height: 50;
+    margin-top: -20px;
+    padding: 20px;
+}
+
+.box {
+    text-align: center;
+    padding: 2rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.price {
+    text-align: center;
+}
+
+footer {
+    background-color: darkgray;
+  
+}
+
+footer h3 {
+    position: relative;
+    right: 40px;
+    text-align: end;
+    padding-right: ;
+
+}
+
+footer p {
+    text-align: end;
+}
