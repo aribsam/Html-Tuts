@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey form</title>
+</head>
+<body>
+    
+     <section class="showcase active"> 
+        <header>  
+            <div class="toggle active"></div> 
+        </header>
+
+        <div class="top">
+            <h1>freecodecamp survey form</h1>
+            <p>Thank you for taking the time to help us improve the platform</p>
+            <img src="images/Tech.jpg" alt="">
+        </div>
+
+        <div class="overlay"></div>
+    </section>
+    
+    <div class="container">
+         <div class="form">
+            <div class="box1">
+            Name
+                <br>
+            <input type="text" value="Enter your name" placeholder="Enter your name">
+                <br>
+                Email
+                <br>
+            <input type="email" value="Enter your Email" placeholder="Enter your Email">
+                <br>
+                Age(optional)
+                <br>
+            <input type="text" value="Age" placeholder="Enter your age">
+                <br>
+                Which option best describes your current role?
+                <br>
+                <select name="select an option" value="select a role" id="select an option" placeholder="select a role" >
+                    <option value="consultant">consultant</option>
+                    <option value="ho">ho</option>
+                    <option value="teller">ho</option>
+                    <option value="job">job</option>
+                </select>
+            </div> 
+                <br>
+                would you like to recommend a friend?
+                 <br>
+                 <div class="checkbox">
+                    <input type="checkbox" name="yes" id="yes">
+                    <label for="yes">yes</label>
+                        <br>   
+                    <input type="checkbox" name="no" id="no">  
+                    <label for="no">no</label> 
+                        <br>   
+                    <input type="checkbox" name="no" id="no">  
+                    <label for="maybe">maybe</label> 
+                </div>
+                    <br>
+                what is your favorite feature of freecodecamp?
+                <br>
+                <select name="choose" id="choose">
+                    <option value="open">open</option>
+                    <option value="wide">wide</option>
+                    <option value="mid">mid</option>
+                    <option value="close">close</option>
+                </select>
+                    <br>
+                what would you like to see improved? (check all that apply)
+                    <br>
+                <div class="checkbox-1">    
+                    <input type="checkbox" name="one" id="one">
+                    <label for="one">one</label>
+                    <br>
+                    <input type="checkbox" name="one" id="one">
+                    <label for="one">two</label>
+                    <br>
+                    <input type="checkbox" name="one" id="one">
+                    <label for="one">three</label>
+                    <br>
+                    <input type="checkbox" name="one" id="one">
+                    <label for="one">four</label>
+                    <br>
+                    <input type="checkbox" name="one" id="one">
+                    <label for="one">five</label>
+                    <br>
+                    <input type="checkbox" name="one" id="one">
+                    <label for="one">six</label>
+                </div>
+                <br>
+                <div>
+                    <label> Any comments or suggestions? </label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comments here...."></textarea>
+                </div>
+                <br>
+                <div class="sub">
+                    <button>submit</button>
+                </div>
+
+        </div>
+    </div>
+</body>
+</html>

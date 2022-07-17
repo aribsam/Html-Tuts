@@ -1,0 +1,141 @@
+body {
+    background-color: gainsboro;
+}
+
+
+/* Showcase */
+.showcase {
+    height: 400px;
+    position: relative;
+}
+
+.showcase h1 {
+    font-size: 40px;
+    color: blue;
+}
+
+.showcase-text {
+    margin: 100px;
+    padding: 0;
+}
+
+.showcase .grid {
+    overflow: visible;
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+
+.showcase-form {
+    position: relative;
+    top: 60px;
+    height: 250px;
+    width: 350px;
+    padding: 40px;
+    z-index: 100;
+}
+
+.showcase-form .form-control {
+    margin: 30px 0;
+}
+
+.showcase-form input[type='text'],
+.showcase-form input[type='email'] {
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container{
+    width: 80%;
+
+}
+
+.card {
+    background-color: white;
+    color:#333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px #fff solid;
+}
+
+.bn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: greenyellow;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 25px;
+    left: 55px; 
+}
+
+.bn-outline {
+    background-color: transparent;
+}
+
+.b {
+    text-decoration: none;
+    margin: 100px;
+}
+
+.showcase-form .card p {
+    margin: 20px;
+
+}
+
+.pg {
+    position: relative;
+    left: 600px;
+}
+
+.pg a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #fff;
+}
+
+footer h3 {
+    font-size: 15px;
+    font-weight: 100;
+    margin: 100px;
+}
+
+footer p {
+    margin: 100px;
+}
