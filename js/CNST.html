@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS DOCUMENTATION</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li> <a href="index.html">INTRODUCTION</a> </li>
+                <hr>
+                <li> <a href="wysk.html"> WYSK</a> </li>
+                <hr>
+                <li> <a href="JnJ.html">JnJ</a> </li>
+                <hr>
+                <li> <a href="hw.html">HW</a> </li>
+                <hr>
+                <li> <a href="v.html">V</a> </li>
+                <hr>
+                <li> <a href="Cnst.html">CNST</a> </li>
+                <hr>
+                <li> <a href="Dt.html">DT</a> </li>
+                <hr>
+                <li> <a href="Stmt.html">STMT</a> </li>
+                <hr>
+                <li> <a href="Rf.html">RF</a> </li>
+            </ul>
+        </nav>    
+    </div>
+
+                    <h3>Constant</h3>
+                    <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters. </p>
+                    <p class="high">const PI = 3.14;</p>
+                    <p>A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value.</p>
+                    
+                        </p>   The scope rules for constants are the same as those for let block scope variables. If the const keyword is omitted, the identifier is assumed to represent a variable </p>
+                    
+                    </p> You cannot declare a constant with the same name as a function or variable in the same scope. For example:</p>
+
+                    <p class="high">// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
+                        CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
+                        }</p>
+                        <p>However, object attributes are not protected, so the following statement is executed without problems.</p>
+                        <p class="high">const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</p>
+                       
+</body>
+</html>
