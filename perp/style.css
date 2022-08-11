@@ -1,0 +1,240 @@
+body {
+    background-color: rgb(52, 50, 50);
+
+}
+
+.navbar {
+    background-color: rgb(153, 30, 30);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 60px;
+    width: 100%;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    height: 50px;
+    padding: 0px;
+    justify-content: end;
+    gap: 50px;
+    font-size: 20px;
+    position: relative;
+    right: 30px;
+}
+
+.navbar li {
+    text-decoration: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;  
+}
+
+.navbar ul :hover {
+    background-color: aqua;
+    height: 50px;
+}
+
+h1 {
+    position: relative;
+    top: 100px;
+    text-decoration: solid;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+}
+
+h2 {
+    position: relative;
+    left: 340px;
+    top: 30px;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+p {
+    position: relative;
+    top: 70px;
+    color: rgb(192, 74, 74);
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+.let {
+    position: relative;
+    top: 500px;
+    left: 80px;
+    color: white;
+}
+
+.let h2 {
+    text-decoration: none;
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+    left: 250px;
+}
+
+.let p {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    left: -90px;
+}
+
+.grid-container {
+    background: rgb(135, 135, 189);
+    position: relative;
+    top: 400px;
+}
+
+.boxes {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.boxes h4 {
+    background: darkgrey;
+    height: 50;
+    width: 186px;
+    margin-top: 40px;
+    padding: 15px;
+    position: relative;
+    left: 61px;
+}
+
+.box {
+    text-align: center;
+    padding: 2rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.box1 {
+    text-align: center;
+    padding: 2rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.box1 h4 {
+    background: darkgrey;
+    height: 50;
+    width: 185px;
+    margin-top: 40px;
+    padding: 10px;
+    position: relative;
+    left: 67px;
+}
+
+.box2 {
+    text-align: center;
+    padding: 2rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.box2 h4 {
+    background: darkgrey;
+    height: 50;
+    width: 205px;
+    margin-top: 61px;
+    padding: 10px;
+    position: relative;
+    left: 57px;
+}
+.box3 {
+    text-align: center;
+    padding: 2rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.box3 h4 {
+    background: darkgrey;
+    height: 50;
+    width: 228px;
+    margin-top: 63px;
+    padding: 10px;
+    position: relative;
+    left: 46px;
+}
+.box4 {
+    text-align: center;
+    padding: 2rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.box4 h4 {
+    background: darkgrey;
+    height: 50;
+    width: 266px;
+    margin-top: 50px;
+    padding: 10px;
+    position: relative;
+    left: 27px;
+}
+.box5 {
+    text-align: center;
+    padding: 2rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.box5 h4 {
+    background: darkgrey;
+    height: 50;
+    width: 206px;
+    margin-top: 50px;
+    padding: 10px;
+    position: relative;
+    left: 56px;
+}
+
+button {
+    margin: 50px;
+    top: -50px;
+    position: relative;
+    left: 550px;
+    height: 40px;
+    width: 100px;
+}
+
+.social {
+    top: 500px;
+    margin: 10px;
+    padding: 80px;
+    position: relative;
+    left: 220px;
+    display: flex;
+    gap: 20px;
+    font-size: 6px;
+}
+
+.line {
+    position: relative;
+    top: 450px;
+}
+
+footer {
+    position: relative;
+    top: 400px;
+    font-size: 20px;
+    color: white;
+    margin: 50px;
+}
+footer p {
+    font-size: 20px;
+    color: white;
+    margin: 40px;
+    position: relative;
+    left: 450px;
+    top: -60px;
+}
+
