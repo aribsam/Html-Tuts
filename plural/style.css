@@ -1,0 +1,134 @@
+.leftside, .rightside {
+    height: 100vh;
+    width: 50%;
+}
+
+body {
+    height: 100vh;
+}
+
+.leftside {
+    background: black;
+    color: white;
+}
+
+.input {
+    padding: 50px;
+    margin: 30px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.inp input {
+    position: relative;
+    left: 80px;
+    border-color: white;
+    border-radius: 2px;
+    border-width: 1px;
+    background-color: black;
+    padding: 5px;
+    width: 480px;
+    height: 30px;
+    top: 50px;
+}
+
+.inp label {
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+
+.password {
+    position: relative;
+    top: 20px;
+}
+
+button {
+    position: relative;
+    width: 495px;
+    left: 80px;
+    top: 90px;
+    color: white;
+    background-color: skyblue;
+    height: 40px;
+}
+
+.links1 a {
+    position: relative;
+    top: 140px;
+    color: skyblue;
+    left:260px;
+}
+.links2 a {
+    position: relative;
+    top: 180px;
+    color: skyblue;
+    left:235px;
+}
+.links3 input {
+    position: relative;
+    top: 220px;
+    color: white;
+    background-color: gray;
+    left:92px;
+    width: 480px;
+    height: 30px;
+}
+
+.line {
+    position: relative;
+    top: 210px;
+    left: 20px;
+}
+
+footer {
+    position: relative;
+    top: 250px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer a {
+    color: white;
+}
+
+.rightside {
+    position: relative;
+    top: -668px;
+    left: 624px;
+}
+.rightside input {
+    position: relative;
+    top: 410px;
+    left: 100px;
+    height: 40px;
+    width: 250px;
+    color: white;
+    background-color: rgba(157, 49, 49, 0.943);
+}
+
+.rightside h1 {
+    position: relative;
+    top: 400px;
+    z-index: 100;
+    left: 100px;
+    width: 400px;
+    color: black;
+    font-size: 45px;
+    background-color: white;
+}
+
+.rightside p {
+    position: relative;
+    top: 650px;
+    z-index: 100;
+    left: 390px;
+    width: 300px;
+    color: black;
+    font-size: 35px;
+    background-color: white;
+}
+
